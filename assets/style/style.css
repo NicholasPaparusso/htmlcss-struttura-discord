@@ -19,6 +19,7 @@ body{
   width: 70%;
   margin-left: 15%;
   margin-right: 15% ;
+  
 }
 .debug{}
 .container .flex{}
@@ -47,7 +48,7 @@ header .logo, .access{
 }
 header .menu{
   background-color: white;
-  width: 800px;
+  width: 600px;
 }
 /*Header*/
 
@@ -88,4 +89,25 @@ header .menu{
   height:50px ;
   width: 200px;
 }
-/*Main*/
+
+ .row{
+  background-color:beige;
+  height: 800px;
+ }
+
+.row .container .box{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  
+}
+.row .container .box .content{
+  width: 400px;
+  height: 500px;
+}
+
+ .row .container .box .img{
+  width: 600px;
+  height: 400px;
+  background-color: aquamarine; 
+}
