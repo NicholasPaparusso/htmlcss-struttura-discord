@@ -1,4 +1,5 @@
 /*General*/
+
 *{
   margin: 0;
   padding: 0;
@@ -8,3 +9,51 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+
+
+/*General*/
+
+/*Utility*/
+
+.container{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15% ;
+}
+
+.debug{}
+.container .flex{}
+
+/*Utility*/
+
+/*  all heights are for demo purpose all heights are for demo purpose */
+
+/*Header*/
+
+header{
+  background-color: #3161e0 ;
+}
+
+header .page-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+header .logo, .access{
+  width: 80px;
+  background-color: white;
+  height: 40px;
+}
+header .menu{
+  background-color: white;
+  width: 800px;
+}
+/*Header*/
+
+/*  all heights are for demo purpose all heights are for demo purpose */
+
+/*Main*/
+
+/*Main*/
