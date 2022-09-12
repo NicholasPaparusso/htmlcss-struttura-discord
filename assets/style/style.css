@@ -20,7 +20,6 @@ body{
   margin-left: 15%;
   margin-right: 15% ;
 }
-
 .debug{}
 .container .flex{}
 
@@ -55,5 +54,38 @@ header .menu{
 /*  all heights are for demo purpose all heights are for demo purpose */
 
 /*Main*/
+.jumbotron{
+  text-align: center;
+  background-color: aqua;
+  height: 530px;
+  padding-top: 50px;
+}
 
+.box-container{
+  background-color: aliceblue;
+  width: 40%;
+  margin: 0 30%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.jumbotron h1{
+  font-size: 40px;
+  margin: 120px 0 50px;
+  text-align: center;
+  background-color:tomato;
+}
+.jumbotron p{
+  text-align: center;
+  padding-top: 50px;
+  background-color: yellow;
+}
+.jumbotron .button{
+  margin: 10px 10px;
+  display: inline-block;
+  background-color: crimson;
+  height:50px ;
+  width: 200px;
+}
 /*Main*/
