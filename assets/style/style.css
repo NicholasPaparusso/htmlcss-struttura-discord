@@ -141,3 +141,24 @@ header .menu{
   background-color: blue;
   width: 40%;
 }
+
+footer{
+  background-color: #151719;
+}
+
+footer section{
+  display: flex;
+  color: white;
+  justify-content: space-between; 
+  padding: 100px 0;
+}
+
+footer .col{
+  background-color: goldenrod;
+  height: 100px;
+}
+
+footer section.bottom{
+  display: flex;
+  justify-content: space-between;
+}
