@@ -154,7 +154,14 @@ footer section{
 
 footer .col{
   background-color: goldenrod;
-  height: 100px;
+  height: 200px;
+  width: 100px;
+}
+
+footer .col.social{
+  background-color: goldenrod;
+  height: 200px;
+  width: calc(100% / 3);
 }
 
 footer section.bottom{
