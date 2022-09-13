@@ -17,8 +17,7 @@ body{
 
 .container{
   width: 70%;
-  margin-left: 15%;
-  margin-right: 15% ;
+  margin: 0 auto;
   height: 100%;
 }
 .debug{}
@@ -60,15 +59,15 @@ header .menu{
   background-color: aqua;
   height: 530px;
   padding-top: 50px;
-}
-
-.box-container{
-  background-color: aliceblue;
-  width: 40%;
-  margin: 0 30%;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  align-content: center;
+}
+
+.jumbo-container{
+  background-color: aliceblue;
+  max-width: 800px;
 }
 
 .jumbotron h1{
